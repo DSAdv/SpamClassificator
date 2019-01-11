@@ -5,7 +5,7 @@ import pathlib
 
 
 def load_dataset(path_csv):
-    """Loads dataset into memory from csv file
+    """ Loads dataset into memory from csv file
 
     :param path_csv: str
     :return: object - [('text..', 'spam'), ('text...', 'ham'), ...]
@@ -32,7 +32,7 @@ def load_dataset(path_csv):
 
 
 def save_dataset(dataset, save_dir):
-    """Writes sentences.txt and labels.txt files in save_dir from dataset
+    """ Writes sentences.txt and labels.txt files in save_dir from dataset
 
     :param dataset: object - [('text..', 'spam'), ('text...', 'ham'), ...]
     :param save_dir: str
